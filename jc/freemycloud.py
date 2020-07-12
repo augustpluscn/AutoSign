@@ -8,7 +8,7 @@ import configparser
 if __name__ == "__main__":
     name = 'freemycloud'
     config = configparser.ConfigParser()
-    config.read('../config.ini')
+    config.read('./config.ini')
     acc = config[name]['acc']
     psd = config[name]['psd']
 
