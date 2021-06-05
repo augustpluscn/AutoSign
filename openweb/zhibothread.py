@@ -3,7 +3,7 @@ import time
 import threading
 
 def open():
-    target = "https://wx.vzan.com/live/tvchat-1286278451?shareuid=300126588#/"
+    target = "https://wx.vzan.com/live/tvchat-1627924258#/"
 
     
     while 1==1:
@@ -14,6 +14,6 @@ def open():
 
 
 if __name__ == "__main__":
-    open()
-    # for x in range(10):
-    #     threading.Thread(target=open).start()
+    # open()
+    for x in range(10):
+        threading.Thread(target=open).start()
