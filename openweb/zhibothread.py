@@ -3,7 +3,7 @@ import time
 import threading
 
 def open():
-    target = "https://wx.vzan.com/live/tvchat-1579043788#/"
+    target = "https://wx.vzan.com/live/tvchat-49437362#/"
 
     
     while 1==1:
